@@ -15,7 +15,7 @@ body {
     --storm-r: 0px;
     mask: radial-gradient(var(--storm-r), #fff, #0000);
     backdrop-filter: brightness(2) hue-rotate(340deg);
-    animation: storm-flash 4s infinite;
+    animation: storm-flash 4s infinite ease-in-out;
 }
 
 @keyframes storm-flash {
