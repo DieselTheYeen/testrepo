@@ -1,6 +1,6 @@
 body {
     background: #333;
-    url('https://images.unsplash.com/photo-1771791516389-db1b125e3da0?q=80&w=1920')
+    background: url('https://images.unsplash.com/photo-1771791516389-db1b125e3da0?q=80&w=1920')
 }
 
 @property --storm-r {
@@ -14,7 +14,7 @@ body {
     inset: 0;
     --storm-r: 0px;
     mask: radial-gradient(var(--storm-r), #fff, #0000);
-    backdrop-filter: brightness(2);
+    backdrop-filter: brightness(2) hue-rotate(340deg);
     animation: storm-flash 4s infinite;
 }
 
